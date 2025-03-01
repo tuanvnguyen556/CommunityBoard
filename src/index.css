@@ -3,13 +3,12 @@
   padding: 0;
 }
 
-
 html, body {
   height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(186, 255, 224);
+  background-color: #091442;
   text-align: center;
 }

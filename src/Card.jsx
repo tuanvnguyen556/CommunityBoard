@@ -1,18 +1,22 @@
 import './Card.css'
 
-const Card = ({props}) => {
+const Card = (props) => {
     return (<>
-    <div>
-        <div>
-            <img src={props.img}/>
+    <div className="single-card-container">
+        <div className="image-container">
+            <img src={props.image}/>
         </div>
-        <div>
-            <span>
+        <div className="content">
+            <span className="name">
                 {props.name}
             </span>
-            <span>
-                {props.type}
+            <span className="type">
+                {props.date}
             </span>
+            <span className="type">
+                {props.time}
+            </span>
+            <button className="menu">View Menu</button>
         </div>
     </div>
         

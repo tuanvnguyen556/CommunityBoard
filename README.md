@@ -1,6 +1,6 @@
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - community-board
 
-Submitted by: **Your Name Here**
+Submitted by: Tuan Nguyen
 
 This web app: **insert description**
 
@@ -41,7 +41,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Tuan Nguyen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
