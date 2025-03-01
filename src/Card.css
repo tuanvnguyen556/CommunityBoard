@@ -2,32 +2,44 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    min-width: 225px;
+    width: 275px;
     height: 350px;
-    max-width: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.single-card-container:hover{
+    box-shadow: 2px 4px 10px rgba(0, 2, 10, 0.5);
 }
 
 .image-container{
-    min-width: 225px;
-    max-width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 200px;
     overflow: hidden;
 }
 
 .image-container image{
     object-fit: cover;
+
 }
 
-.name, .type{
+.name, .date, .time{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .name{
     font-size: 1.1rem;
+    padding: 1rem 0;
 }
 
-.type{
+.date, .time{
     font-size: 0.9rem;
+}
+
+.time{
+    padding: 0.75rem 0;
 }
 
 .content{
@@ -41,7 +53,7 @@
 
 .menu{
     border-style: none;
-    background-color: red;
+    background-color: black;
     color: white;
     border-radius: 5px;
     height: 30px;

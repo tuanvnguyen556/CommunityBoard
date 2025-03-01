@@ -10,13 +10,13 @@ const Card = (props) => {
             <span className="name">
                 {props.name}
             </span>
-            <span className="type">
+            <span className="date">
                 {props.date}
             </span>
-            <span className="type">
+            <span className="time">
                 {props.time}
             </span>
-            <button className="menu">View Menu</button>
+            <button className="menu">View Match</button>
         </div>
     </div>
         
