@@ -1,22 +1,22 @@
 # Web Development Project 1 - community-board
 
-Submitted by: Tuan Nguyen
+Submitted by: **Tuan Nguyen**
 
-This web app: **insert description**
+This web app: **Displays 12 matches that will occur during the upcoming Champion League's Round of 16**
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **There is a unique theme for events or resources relevant to a specific community**
-- [ ] **At least 10 unique resources or events are displayed in a responsive card format**
+- [X] **There is a unique theme for events or resources relevant to a specific community**
+- [X] **At least 10 unique resources or events are displayed in a responsive card format**
 
 The following **optional** features are implemented:
 
 - [ ] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [X] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
@@ -26,10 +26,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/auhHliI' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with kap  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
@@ -39,6 +39,7 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+My main challenge was trying to display the title and large image. The large image will cause the title to go up and hide. Another challenge I faced was trying to make my website responsive. If I changed one item to be responsive, then I would have to change many more.
 ## License
 
     Copyright [2025] [Tuan Nguyen]
